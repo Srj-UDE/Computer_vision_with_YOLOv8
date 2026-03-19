@@ -14,6 +14,7 @@ This project demonstrates how a Computer vision model can be deployed interactiv
 - ⚡ Streamlit caching for faster performance (avoids model reloads) 
 - 🖼️ Bounding boxes and labels displayed in real time
 - 🔒 No video or images are stored, all processing happens in memory
+- ⚡ The audio output has been disabled for better experience
 
 ---
 
