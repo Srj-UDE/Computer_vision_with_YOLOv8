@@ -22,7 +22,7 @@ st.markdown("##### Project Features:\n"
     "- Optimized for smooth streaming with minimal latency.\n"
     "- Uses Streamlit caching to avoid reloading the model multiple times for faster performance.\n")
 
-st. markdown("##### Note: When running this app on a device with multiple cameras available, one can switch between the camera inputs from the 'SELECT DEVICE' option")
+st.markdown("##### Note: When running this app on a device with multiple cameras available, one can switch between the camera inputs from the 'SELECT DEVICE' option")
 
 class YOLOProcessor(VideoTransformerBase):
     
