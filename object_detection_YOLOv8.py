@@ -13,7 +13,7 @@ st.header("Object Classifier with YOLOv8n", divider="rainbow")
 
 st.sidebar.markdown("#### Project by SRIJAN KUMAR SAHA")
 
-st.markdown("A real-time object detection web application powered by YOLOv8, enabling users to perform live object detection directly through with their edge devices with good performance and user friendly design.")
+st.markdown("A object detection web application powered by a state-of-the-art real-time object detection model YOLOv8, which enables users to perform live object detection directly through their edge devices.")
 
 st.markdown("##### Project Features:\n"
     "- Real-Time Object Classification, powered by YOLOv8n.\n"
@@ -23,6 +23,7 @@ st.markdown("##### Project Features:\n"
     "- Uses Streamlit caching to avoid reloading the model multiple times for faster performance.\n")
 
 st. markdown("##### Note: When running this app on a device with multiple cameras available, one can switch between the camera inputs from the 'SELECT DEVICE' option")
+
 class YOLOProcessor(VideoTransformerBase):
     
     def transform(self, frame):
