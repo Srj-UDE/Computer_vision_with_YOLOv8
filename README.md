@@ -1,4 +1,4 @@
-# 🖼️  Computer vision with YOLOv8 (Real-Time Object Detection Web App)
+# 🖼️  Computer vision with YOLOv8 (Real-Time Object Detection App)
 
 A real-time object detection web application built using YOLOv8, Streamlit, and WebRTC.  
 This app allows users to perform live object detection directly from their browser using their webcam, no local setup required.
