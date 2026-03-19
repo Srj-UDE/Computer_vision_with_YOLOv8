@@ -11,7 +11,7 @@ def load_model():
 model= load_model()
 st.header("Object Classifier with YOLOv8n", divider="rainbow")
 
-st.sidebar("Project by SRIJAN KUMAR SAHA")
+st.sidebar.markdown("#### Project by SRIJAN KUMAR SAHA")
 
 st.markdown("A real-time object detection web application powered by YOLOv8, enabling users to perform live object detection directly through with their edge devices with good performance and user friendly design.")
 
