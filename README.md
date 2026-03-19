@@ -53,7 +53,10 @@ Once running, open the local address shown in the terminal (usually):
 ```bash
 http://localhost:8501
 ```
- 
+Run the app directly on your edge device without downloading the code. 
+```bash
+https://srijan-computervisionwithyolov8.streamlit.app/
+```
 ---
 
 ## 🌐 Deployment
