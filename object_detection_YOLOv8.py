@@ -13,7 +13,7 @@ st.header("Object Classifier with YOLOv8n", divider="rainbow")
 
 st.sidebar.markdown("#### Project by SRIJAN KUMAR SAHA")
 
-st.markdown("A object detection web application powered by a state-of-the-art real-time object detection model YOLOv8, which enables users to perform live object detection directly through their edge devices.")
+st.markdown("An object detection web application powered by a state-of-the-art real-time object detection model YOLOv8, which enables users to perform live object detection directly through their edge devices.")
 
 st.markdown("##### Project Features:\n"
     "- Real-Time Object Classification, powered by YOLOv8n.\n"
