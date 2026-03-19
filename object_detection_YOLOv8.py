@@ -11,7 +11,7 @@ def load_model():
 model= load_model()
 st.header("Object Classifier with YOLOv8n", divider="rainbow")
 
-st.markdown("A real-time object detection web application powered by YOLOv8, a state-of-the-art real-time object detection model optimized for low-latency video processing, enabling users to perform live detection directly through with their edge devices with good performance and user friendly design.")
+st.markdown("A real-time object detection web application powered by YOLOv8, enabling users to perform live object detection directly through with their edge devices with good performance and user friendly design.")
 
 st.markdown("##### Project Features:\n"
     "- Real-Time Object Classification, powered by YOLOv8n.\n"
