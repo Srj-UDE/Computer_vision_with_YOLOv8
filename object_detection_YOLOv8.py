@@ -27,7 +27,7 @@ class YOLOProcessor(VideoTransformerBase):
         img = frame.to_ndarray(format="bgr24")
 
         #flip the image
-        img =cv2.flip(img,1) # 1: rotates the image horizontally, 0: vertically, -1: both horizontally and vertically
+        #img =cv2.flip(img,1) # 1: rotates the image horizontally, 0: vertically, -1: both horizontally and vertically
 
         # Run YOLO detection
         results = model(img, show= False)
