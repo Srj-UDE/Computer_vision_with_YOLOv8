@@ -26,7 +26,7 @@ st.markdown("Note: When running this app on a multiple camera device, switch bet
 
 class YOLOProcessor(VideoTransformerBase):
     
-    def transform(self, frame):
+    def recv(self, frame):
         img = frame.to_ndarray(format="bgr24")
 
         #flip the image
